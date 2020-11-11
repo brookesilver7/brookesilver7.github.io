@@ -1,0 +1,209 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+body {
+background-color: lavenderblush;
+background:
+linear-gradient(135deg, #E6E6FA 25%, transparent 5%) -50px 0,
+linear-gradient(225deg, #E6E6FA 25%, transparent 5%) -50px 0,
+linear-gradient(315deg, #E6E6FA 25%, transparent 5%),
+linear-gradient(45deg, #E6E6FA 25%, transparent 5%);
+background-size: 100px 100px;
+background-color: #fff0f5;
+color:rgb(217, 104, 183);
+font-family: 'Raleway', sans-serif;
+font-size: 20px}
+
+h1 
+{
+{text-align: center;}
+width: 1000px;
+height: 180px;
+margin-bottom: 50px;
+background-color:rgb(248,235,255);
+border: 5px dashed #FFA3D0;
+border-radius: 10px;
+color: hotpink;
+font-size: 65px;
+font-weight: bold;
+text-transform: uppercase;
+text-decoration: inherit;
+line-height: 1.45em;
+letter-spacing: .2em;
+font-family:"Times New Roman",Times,serif;                                             
+text-align: center;
+padding-left: 00px;
+padding-right: 00px;
+text-shadow: 4px 4px 4px #aaa}
+	
+ul {
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFA3D0;
+ ;
+}
+
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    font-size: 30px;
+      
+;
+}
+
+li a:hover:not(.active) {
+  background-color:rgb(248,235,255) ;
+}
+
+
+.active {
+  background-color: #4CAF50;
+}
+
+.arial {font-family: Arial; }
+.pictureofme {
+	width: 700px;
+	height: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;}
+
+.closeup {
+	width: 400px;
+	height: 300px;
+float: left;
+padding-top: 0px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+    padding-left: 20px;}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.picturetwo {
+	width: 400px;
+	height: 300px;
+float: right;
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+}
+
+
+
+.picturethree {
+	width: 400px;
+	height: 300px;
+float: left;
+    padding-top: 0px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.picturefour {
+	width: 400px;
+	height: 300px;
+float: right;
+padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 80px;}
+
+.poster {
+	width: 500px;
+	height: 600px;
+float: right;
+padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 80px;}
+
+.picturefive {
+	width: 400px;
+	height: 300px;
+float: left;
+padding-top: 0px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+    padding-left: 20px;}
+
+
+
+.column {
+    float:left;
+    width: 20%;
+    padding: 50px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    opacity: .8;
+    width: 450px;
+    height: 1px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  
+}
+
+.row::after {
+    content: "";
+    clear:both;
+    display: table;
+}
+
+
+.column1 {
+    float: left;
+    width: 48%;
+    padding: 5px;  
+}
+
+.row1::after {
+    content: "";
+    clear:both;
+    display: table;
+}
+
+.fontsize {
+   font-size: 40px;
+}
+
+.fontsize2 {
+    font-size: 30px;
+}
+
+.fontsize3 {
+    font-size: 29px;
+}
+
+.fontsize4 {
+    font-size: 35px;
+}
+
+.fontsize5 {
+    font-size: 55px;
+}
+
+.navigation {
+    float: left
+}
